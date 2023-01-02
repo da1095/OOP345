@@ -1,0 +1,15 @@
+/*OOP345 WS05 P2
+Name: Devang Ramubhai Ahir Ahir
+Id: 153484209
+Module: reflect
+File: reflect.txt*/
+
+I learned a lot in preparation for the following workshop. I know how to create a templated class that allocates and dealslocates dynamic memory, 
+write lambda expressions, and throw exceptions, among other things. The major distinction between a lambda expression and a functor is that functors 
+are not utilised in the same place as lambdas. As a result, you had to locate and interpret the functor in isolation from the context in which it 
+was being used (even if it is only being used in one place).The other issue was that getting parameters into the functor object required some wiring. 
+It's not difficult, but it's all boilerplate code. Boiler plate is also prone to cut and paste issues. Lambda attempts to resolve both of these issues. 
+However, if the function is repeated numerous times or is larger than (can't think of an acceptable term because it would be context sensitive) tiny, 
+I would use functors. If we don't want to use exceptions in SpellChecker, we can simply print something to the user. 
+Instead of writing if (!fin)throw "Bad file name!"; we might write if(!fin)cout"Bad file name!" and leave the programme. 
+The Movie and Book classes might simply be combined. We utilise the default function Object() { [native code] } for their classes to define the starting values, therefore it's required.

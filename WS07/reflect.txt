@@ -1,0 +1,25 @@
+/*OOP345 WS07 P2
+Name: Devang Ramubhai Ahir Ahir
+Id: 153484209
+Module: reflect
+File: reflect.txt*/
+
+
+
+
+
+
+The Standard Template Library (STL) is a collection of C++ template classes that offer methods and data structures that are often used in 
+programming, such as lists, stacks, and arrays.  It is a collection of iterators, algorithms, and container classes. Due to the fact that 
+it is a generic library, its parts are parameterized. Working with STL requires some familiarity with template classes. Algorithms, Containers, 
+Functions, and Iterators are the four parts of the STL.
+
+
+Data and objects are stored in containers or container types. There are three container adaptor classes, seven "first-class" standard container 
+classes, and just one access to these containers or container adaptors is made possible by seven header files. 
+
+Classes that overload the function call operator are included in the STL. These classes' instances are referred to as function objects or functors. 
+
+Functors permit the operation of the corresponding function that can be modified with the use of passed-in parameters.
+
+Iterators are used to work on a succession of values, as their name suggests. They are the primary aspect of STL that permits generality.

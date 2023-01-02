@@ -1,0 +1,18 @@
+/*OOP345 WS06 P2
+Name: Devang Ramubhai Ahir Ahir
+Id: 153484209
+Module: reflect
+File: reflect.txt*/
+
+
+
+A container is an item that serves as a holder for a group of other things (its elements). Due to their implementation as class templates, 
+there is a lot of freedom in the kinds that can be used as elements. The container controls how its elements are stored and gives 
+its members member functions to access them directly or through iterators (reference objects with similar properties to pointers). 
+Structures that are frequently used in programming, such as dynamic arrays (vector), queues (queue), stacks (stack), and heaps (priority queue), are replicated by containers.
+Associative arrays, trees, and linked lists (map). Numerous containers share features and several member functions. The choice of container type for a given need 
+typically depends on more factors than just the capabilities it provides but also on certain of its members' effectiveness (complexity). 
+This is particularly accurate for sequence containers because they present many trade-offs between adding/removing elements and accessing them, in terms of complexity. 
+As container adaptors, stack, queue, and priority queue are implemented. Container adaptors are classes that provide a specific interface dependent on an object of 
+one of the container classes rather than whole container classes to manage the elements, like deque or list. The underlying container is encapsulated so that users 
+can access its components regardless of the underlying container class employed, the members of the container adaptor.
