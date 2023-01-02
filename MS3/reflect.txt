@@ -1,0 +1,16 @@
+// Name: Devang Ramubhai Ahir Ahir 
+// Seneca Student ID: 153484209
+// Seneca email: drahir-ahir@myseneca.ca
+// Date of completion: 8/3/2022
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+
+Thus, the current semester is drawing to an end. In contrast to OOP244 and IPC144, OOP345 seems to be more sophisticated. We researched threaded programming and 
+object-oriented programming using the C++ language to increase programming productivity. I think I've understood the majority of the content we've studied this 
+semester overall. There are, however, always situations that call for more expertise and in-depth understanding.The tasks for the final project are more harder; 
+I thought it would be easy to complete milestones 1 and 2. The last achievement, on the other hand, is quite difficult. It's not just because many concepts are combined.
+It includes material from all earlier classes as well as polymorphism, one of my weaker areas. I'm still working to understand the ideas behind multiple inheritance, 
+multithreading, and smart pointers. My worry is that these ideas will be tested on the exam, and if I don't have practise problems on them (or enough practise problems), 
+I won't feel prepared. I also want to say that I'm curious to know how the solution code got the assembly line's first task. Everyone couldn't understand this slight challenge
