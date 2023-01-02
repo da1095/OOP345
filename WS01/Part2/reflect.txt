@@ -1,0 +1,35 @@
+Name: Devang Ramubhai Ahir Ahir 
+ID: 153484209
+Reflect.txt for WS01
+
+
+
+
+
+This workshop revolve around aspects of linkage, storage duration, namespaces, header guards, 
+and operating system interfaces. Header guards is something I have been using since the 1st semester in IPC144 and OOP244 without actually knowing the terminology. 
+
+
+Header Guards: The preprocessor checks whether SOME UNIQUE NAME HERE has been defined earlier when this header is #included. SOME UNIQUE NAME HERE will not be defined if this is 
+the first time we've used the header. As a result, it contains the contents of the file and #defines SOME UNIQUE NAME HERE. If the header is included again in the 
+same file, SOME UNIQUE NAME HERE will have already been defined from the first time the header's contents were included, and the header's contents will be 
+disregarded (due to the #ifndef). 
+
+
+Storage Duration: In C/C++, each variable has one of the three storage durations: • Static. The storage size and address of a variable with a static storage duration are determined 
+at compile time (before the programme starts executing); the storage lifetime is the full programme execution period.
+
+
+
+Linkage: The term inkage refers to how names might refer to the same thing throughout a programme or a single translation unit. In C, the static keyword is used to limit a function 
+or variable's visibility to its translation unit.
+
+
+
+Namespace: A namespace is a declarative zone that gives the identifiers (names of types, functions, variables, and so on) within it a scope. Namespaces are used to arrange code into 
+logical categories and to avoid name clashes, which might happen when working with several libraries.
+
+
+This workshop ask me to uses this functions to create this program. The main.cpp has included the header file two time. The header guard makes that the programm compile the file
+without any compiling error. Linkage has to be properly done so that different files, 3 files for this workshop, run as a coherent unit. Namespace makes sure that the programm run 
+without any error at all except for syntax error, because that is type by the programmer which is me.

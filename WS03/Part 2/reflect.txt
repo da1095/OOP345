@@ -1,0 +1,12 @@
+Name: Devang Ramubhai Ahir Ahir 
+ID: 153484209
+Reflect.txt for WS03
+
+
+In C++, a template is a simple but powerful tool. The basic idea is to pass the data type as a parameter, eliminating the need to write the same 
+code for multiple data types. A software business, for example, may require sort() for many data kinds. We can construct a single sort() function 
+and pass data type as a parameter instead of writing and maintaining numerous codes.To support templates, C++ adds two 
+new keywords: 'template' and 'typename.' The keyword 'class' can always be used in place of the second keyword. Templates are expanded during 
+the compilation process. This is similar to macros. The compiler, on the other hand, performs type checking prior to template expansion. 
+The concept is straightforward: source code only contains one function or class, whereas generated code may have numerous copies of the same 
+function or class.
