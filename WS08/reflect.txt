@@ -1,0 +1,40 @@
+/*OOP345 WS08 P2
+Name: Devang Ramubhai Ahir Ahir
+Id: 153484209
+Module: reflect
+File: reflect.txt*/
+
+
+Smart Pointers
+
+Pointers are used to access resources that are beyond the scope of the application, such as heap memory. Therefore, 
+pointers are utilised to reach the heap memory (if anything is created inside the heap memory). We just use a duplicate of the resource whenever we access any external resource. 
+If we need to change anything, we just update the duplicated version. However, we can modify the original resource if we utilise a pointer to it. Unintentionally leaving a pointer 
+undeallocated results in a memory leak, which could cause the programme to fail. Garbage collection mechanisms are built into languages like Java and C# to intelligently deallocate 
+unused memory for later usage. No memory leaks are a concern for the programmer.Smart Pointer is a new mechanism created by C++. The memory is also released when the item is destroyed. 
+We therefore don't need to delete it because Smart Pointer will take care of it.
+
+
+
+An operator like * or -> is overloaded in a Smart Pointer, which is a wrapper class over a pointer. 
+The smart pointer class's objects resemble conventional pointers in appearance. However, it can deallocate and free damaged object memory, unlike Normal Pointers.
+
+Take a class that includes a destructor, pointer, and overloaded operators like * and ->. The dynamically created memory would automatically be destroyed because 
+the destructor is automatically executed when an object exits scope (or reference count can be decremented). 
+
+
+
+Smart Pointer Types
+1. unique_pt 
+One pointer is all that is stored in a unique pointer. By removing the current object from the pointer, 
+we can assign a different object. Check out the code below. First, P1 is the destination of the unique pointer. 
+The pointer now points to P2 after we remove P1 and assign P2.
+
+
+2. shared_ptr
+Shared ptr allows more than one pointer to point to the same object at once, and it keeps track of references using the use count() method. 
+
+
+3. weak_ptr 
+Except that it won't keep a Reference Counter, it is far more comparable to shared ptr. A pointer won't have a firm grip on the object in this scenario. 
+The explanation is that pointers may create a deadlock if they are holding an item while requesting other objects.

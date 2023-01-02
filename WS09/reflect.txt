@@ -1,0 +1,40 @@
+/*OOP345 WS09 P2
+Name: Devang Ramubhai Ahir Ahir
+Id: 153484209
+Module: reflect
+File: reflect.txt*/
+
+
+
+
+
+
+C+11 made multithreading capability available. Prior to C++11, we had to utilise the C p threads library or POSIX threads. Even while this library accomplished the task, 
+the lack of a feature set supplied by a standard language created significant portability problems. All of that was eliminated in C++ 11 and replaced with std::thread. 
+The thread header file contains definitions for the thread classes and associated functions.
+
+
+
+In C++, a single thread is represented by the thread class std::thread. Simply create a new thread object and give the callable object 
+(i.e., the executing code to be called) into the function Object() { [native code] } to start a thread. After the object is constructed, 
+a new thread is started to run the callable's provided code.
+
+
+
+Any one of these three things can be a callable.
+
+
+
+A function pointer
+
+A function object
+
+A lambda expression
+
+
+
+We might need to wait for a thread to conclude after it has begun before moving further. For instance, if we assign the process of initialising the graphical user interface (GUI) 
+of an application to a thread, we must wait for the thread to complete in order to verify that the GUI has loaded correctly.
+
+The function std::thread::join() can be used to wait for a thread. This function instructs the currently running thread to wait until the thread indicated by 
+*this has completed its execution.
